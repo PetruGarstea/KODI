@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.footballhighlights" name="RecentFootballHighlights" version="0.0.1" provider-name="Petru Garstea">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" provides="video" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">http://www.fullmatchesandshows.com/</summary>
+		<description lang="en">Recent Football HighLights</description>
+		<platform>all</platform>
+		<email>pg@ambient-md.com</email>
+	</extension>
+</addon>
